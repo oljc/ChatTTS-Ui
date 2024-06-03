@@ -1,13 +1,13 @@
 <script setup lang="ts">
 defineOptions({
-  name: 'HomePage'
+  name: 'HomeView'
 });
 </script>
 
 <template>
   <main>
     <a-textarea
-      style="width: 500px; height: 300px"
+      style="width: 500px"
       placeholder="Please enter something"
       allow-clear
       show-word-limit
