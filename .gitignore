@@ -1,4 +1,4 @@
-# Logs
+# 不同环境下产生的日志
 logs
 *.log
 npm-debug.log*
@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# 项目构建相关的文件
 node_modules
 .DS_Store
 dist
@@ -17,9 +18,10 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
-# Editor directories and files
+# 编辑器相关的文件
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
